@@ -1,0 +1,43 @@
+
+Site "English Learning Tests"
+
+index.html
+    index.js
+        app.js
+            Header.js
+                HeaderTests.js
+                    HeaderTestsList.js
+                        ShowCurrentTest.js
+                            ShowCurrentTestCont.js
+                                QuestionTest.js
+                                AnswerTest.js
+                                FooterQuestion.js
+
+            Words.js
+            Listen.js
+            Phrases.js
+            Jokes.js
+            Footer.js
+
+
+id="root"   
+    id="London_bgr"
+        class="header_header"
+            id="header_menu_tests_cont_id"
+                id="header_menu_tests" class="header_menu_item"
+            id="list_tests_wrapper"
+                id="TEST1" class="menu_test"
+                id="TEST2" class="menu_test"
+                ...
+        id="tests_wrapper"
+            id="ID00_question class="question_test"  // the question in first test question
+            id="id0" class="li_class"  // first answer  in first test question
+            id="id1" class="li_class"  // second answer  in first test question
+            ...
+            id="footer_question" id="ID00_footer_question"  // WHY, 2 time counts
+                class="button_test"  id={ID_work2} //WHY
+                class="number_question" id={ID_work5}  // number of question
+                class="correct_answers" id={ID_work6}  //correct answers
+                class="time_question" id={ID_time_qst}  // time of question
+                class="time_test" id={ID_time_work8}>  // time of test
+            class="space_question" id={ID_work3}>  //space
